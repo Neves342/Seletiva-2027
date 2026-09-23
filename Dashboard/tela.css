@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1E0E2B;
+}
+
+h1 {
+    color: #FF4087;
+    margin-left: 56px;
+    font-size: 50px;
+}
+
+.second {
+   color: white;
+    margin-left: 104px;
+    font-size: 43px;
+    font-family: math;
+}
+
+h2 {
+   font-size: xxx-large;
+    margin-left: 55px;
+    color: white;
+}
+
+p {
+   margin-left: 55px;
+    color: #09BDCD;
+    font-size: 20px;
+}
+
+.barra_naviga {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    margin-left: 141px;
+}
+
+nav {
+    margin-right: 130px;
+}
+
+ul {
+    display: flex;
+    gap: 43px;
+    color: #1E0E2B;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.linha {
+    width: 86%;
+    height: 3px;
+    background-color: #F31366;
+    margin-left: 141px;
+    margin-top: 20px;
+}
+
+.card2 {
+    display: flex;
+    gap: 49px;
+    margin-top: 24px;
+}
+
+.container_card {
+    display: flex;
+    gap: 41px;
+}
+
+.fund_music {
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    margin-top: 132px;
+}
+
+.img_seta {
+    
+}
+
+.bar {
+    color: #09BDCD;
+}
+
+.button_inicial {
+   padding: 11px;
+    width: 59%;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+
+
+article {
+    background-color: #27183B;
+    width: 62vh;
+    margin-left: 24vh;
+    border-radius: 23px;
+}
+
+.par1 {
+    display: flex;
+    align-items: center;
+    margin-left: 53px;
+    font-size: large;
+    color: #09BDCD;
+    gap: 5px;
+    position: relative;
+    bottom: 53px;
+
+}
+
+.par2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 128px;
+    left: 107px;
+    color: #09BDCD;
+    gap: 6px;
+    font-size: x-large;
+}
+
+button {
+   border: 1px solid #F31366;
+    padding: 11px;
+    width: 59%;
+    border-radius: 21px;
+    color: white;
+    background-color: #F31366;
+    margin-left: 115px;
+    position: relative;
+    bottom: 75px;
+    font-size: x-large;
+}
+
+footer {
+    display: flex;
+    margin-top: 106px;
+    justify-content: space-around;
+}
+
+.rodape {
+    display: flex;
+}
+
+.roda {
+    color: white;
+}
+
+.image_rodape {
+    position: relative;
+    bottom: 30px;
+}
+
+.linha2 {
+
+}
