@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sytem-ui;
+    background-color: #000000d4;
+}
+
+h1 {
+    color: #D4145B;
+    margin-left: 43px;
+}
+
+.barra_navega {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    margin-left: 107px;
+    margin-top: 20px;
+    width: 10%;
+}
+
+nav {
+    margin-right: 104px;
+    margin-top: 62px;
+}
+
+nav ul {
+    display: flex;
+    gap: 43px;
+    color: #00000000;
+}
+
+li a {
+  color: #D4145B;
+  text-decoration: none;
+}
+
+.linha {
+    width: 89%;
+    height: 4px;
+    background-color: #7D02CA;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+
+.camp_cadas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 26px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+input {
+    border: 1px solid #DADEF0;
+    border-radius: 10px;
+    padding: 7px;
+    width: 117%;
+    background-color: #00000080;
+    color: white;
+}
+
+input:focus {
+    background-color: #433f46;
+}
+
+button {
+    border: 1px solid #7D02CA;
+    background-color: #7D02CA;
+    border-radius: 17px;
+    padding: 10px;
+    color: white;
+    width: 50%;
+    margin-left: 103px;
+    margin-top: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #8102CA;
+    color: #DADEF0;
+    margin-top: 61px;
+    padding: 19px;
+    height: 7vh;
+    align-items: center;
+}
+
+.rodape {
+    font-size: 5rem;
+}

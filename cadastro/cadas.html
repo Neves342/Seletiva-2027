@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="cadas.css">
+</head>
+<body>
+    <header class="barra_navega">
+        <img src="Group.png" alt="logo Senac" class="image">
+        <nav>
+            <ul>
+                <li><a href="#">Usuário</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Evento</a></li>
+                <li><a href="#">Dashboard Adm</a></li>
+                <li><a href="#">Usuario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="linha"></div>
+    <section class="camp_cadas">
+        <h1>Cadastro de eventos</h1>
+        <div class="container_cadas">
+      <form class="formu">
+        <label for="text">Nome:</label>
+        <input type="text" id="text" name="text" required>
+
+         <label for="date">Data do evento:</label>
+         <input type="date" id="date" name="date" required>
+
+         <label for="time">Horário:</label>
+         <input type="time" id="time" name="time" required>
+
+         <label for="number">Capacidade de pessoas:</label>
+         <input type="number" id="number" name="number">
+         
+         <label for="file">Imagem:</label>
+         <input type="file" id="file" name="file" required>
+
+         <label for="week">Local do evento:</label>
+         <input type="week" id="wek" name="week" required>
+
+         <label for="text">Preço</label>
+         <input type="text" id="text" name="text" required>
+            <button type="submit">Continuar cadastro</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+        <div class="rodape">&#169 Senac</div>
+    </footer>
+</body>
+</html>
